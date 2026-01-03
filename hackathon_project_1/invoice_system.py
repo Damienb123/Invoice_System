@@ -99,7 +99,7 @@ def main():
 
     invoice_text = format_invoice(invoice, discount_amount)
     print("\n" + invoice_text)
-
+    # Included feature - saving to a file
     save = input("Save invoice to file? (y/n): ").lower()
     if save == "y":
         filename = f"invoice_{invoice.invoice_number}.txt"
@@ -110,5 +110,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
