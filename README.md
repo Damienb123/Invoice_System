@@ -1,4 +1,9 @@
 # Invoice_System
+
+## Tech Stack
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-Editor-blue?logo=visualstudiocode&logoColor=white)
+
 ## How the Code Works
 The program allows the user to enter multiple invoice items, each with a name, quantity, and unit price. Each item’s total is automatically calculated and added to the invoice subtotal. A fixed 10% tax is applied, and an optional discount code (SAVE10) can reduce the subtotal by 10%. The system generates a unique invoice number and records the date and time of the transaction. The invoice is displayed in a clean, formatted receipt-style layout for easy reading. Users are given the option to save the generated invoice to a text file for record keeping.
 
